@@ -1,9 +1,7 @@
 ---
-to: src/store/modules/<%= h.inflection.dasherize(name) %>.js
+to: src/state/modules/<%= h.inflection.dasherize(name) %>.js
 ---
-export const state = {
-  todo: true
-}
+export const state = {}
 
 export const getters = {}
 

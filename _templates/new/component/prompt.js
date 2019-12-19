@@ -7,7 +7,7 @@ module.exports = [
     message: '文件名:',
     validate(value) {
       if (!value.length) {
-        return '文件名称不能为空！'
+        return '文件名不能为空！'
       }
       const fileName = _.kebabCase(value)
       if (fileName.indexOf('-') === -1) {
